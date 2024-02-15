@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio | Angati Vijay Kumar</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <section id="header">
+
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero">
+                        <h1><span>Personal </span>Portfolio</h1>
+                    </a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger">
+                        <div class="bar"></div>
+                    </div>
+                    <ul>
+                        <li><a class="active" href="#home">Home</a></li>
+                        
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#project">Project</a></li>
+                        <li><a href="#contactus">Contact</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="home" id="home">
+        <div id="particles-js"></div>
+    
+        <div class="content">
+            <h2>Hi There,<br /> I'm Angati Vijay Kumar</h2>
+            <p>I am into<span> prompt engineering</span></p>
+            <a href="#about" class="btn"><span>About Me</span>
+                <i class="fas fa-arrow-circle-down"></i>
+            </a>
+            <div class="socials">
+                <ul class="social-icons">
+                    <li><a class="linkedin" href="https://www.linkedin.com/in/vijay-kumar-angati-967a46235/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a class="github" href="https://github.com/angativijaykumar" target="_blank"><i class="fab fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="image">
+            <img src="assets/hero1.png" alt="">
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <h2 class="heading"><i class="fas fa-user-alt"></i> About <span>Me</span></h2>
+    
+        <div class="row">
+    
+            <div class="image">
+                <img src="assets/photo.jpg" alt="">
+            </div>
+            
+            <div class="content">
+                <h3>I'm Angati Vijay Kumar</h3>
+                <span class="tag">Web Developer</span>
+    
+                <p>I am a Web Developer from Vizag. I am doing my Bachelor of Computer Science Engineering from GITAM University. <br>I am
+                very passionate about improving my coding skills.</p>
+    
+                <div class="box-container">
+                    <div class="box">
+                        <p><span> Email : </span> vangati@gitam.in</p>
+                        <p><span> Place : </span> Vizag,Andhra pradesh, India - 531173</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading" alt=""> <i class="fas fa-laptop-code "></i> Skills & <span>Ability</span></h2>
+        <img src="assets/skills/c.png" alt="" class="hover-effect"></img>
+        <img src="assets/skills/c++.png" alt="" class="hover-effect"> </img>
+        <img src="assets/skills/python.png" alt="" class="hover-effect"> </img>
+        <img src="assets/skills/wordpress.png" alt="" class="hover-effect"> </img>
+        <img src="assets/skills/html.png" alt="" class="hover-effect"></img>
+        <img src="assets/skills/css.png" alt="" class="hover-effect"> </img>
+        <img src="assets/skills/js.png" alt="" class="hover-effect"> </img>
+        <img src="assets/skills/download.png" alt="" class="hover-effect"> </img>
+    </section>
+
+    <section class="project" id="project">
+        <h2><i class="fas fa-graduation-cap"> </i> Projects <span> Made</span></h2>
+        <div class="box1div">
+            <div class="work">
+                <img src="assets/projects/Responsewebpage.png">
+                <div class="layer">
+                    <h3>Responsive Webpage </h3>
+                    <p> This Webpage is Responsewebpage that when hovered on services it changes color. </p>
+                    <a href="#"> <i class="fas fa-chevron-right"></i> </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/projects/stopwatch.png">
+                <div class="layer">
+                    <h3>Stopwatch online Webpage </h3>
+                    <p> This app is used as an online stopwatch. </p>
+                    <a href="#"> <i class="fas fa-chevron-right"></i> </a>
+                </div>
+            </div>
+    
+            <div class="work">
+                <img src="assets/projects/weatherapp.png">
+                <div class="layer">
+                    <h3>Weather App Webpage </h3>
+                    <p> This app help to see the Weather in your region using live location. </p>
+                    <a href="#"> <i class="fas fa-chevron-right"></i> </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="contactus" id="contactus">
+
+        <h2 class="heading"><i class="fas fa-headset"></i> Get in <span>Touch</span></h2>
+
+        <div id="contact-left">
+            <p> <i class="fa fa-paper-plane"></i> vangati@gitam.in</p>
+            <p> <i class="fa fa-phone"></i> 8179364493 </p>
+        </div>
+
+        <div id="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text " name="Name" placeholder="Your Name" required>
+                <input type="text " name="Email" placeholder="Your Email" required>
+                <textarea name="Message" placeholder="Your Message"></textarea>
+                <button type="submit"> Submit </button>
+            </form>
+        </div>
+        <span id="msg"></span>
+    </div>
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Designed by @Vijay Kumar</h3>
+            </div>
+
+        </div>
+    </section>
+    <script src="script.js"></script>
+
+</body>
+</html>
