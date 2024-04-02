@@ -1,3 +1,3 @@
 PERSONAL PORTFOLIO WEBPAGE USING HTML,JAVASCRIPT,CSS
 
-https://angativijaykumar.github.io/WAD-CASE-STUDY-BY-VIJAY/
+https://angativijaykumar.github.io/CASE-STUDY/
