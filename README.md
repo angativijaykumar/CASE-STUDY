@@ -1,3 +1,3 @@
 PERSONAL PORTFOLIO WEBPAGE USING HTML,JAVASCRIPT,CSS
 
-https://angativijaykumar.github.io/PRODIGY_TASK-4/
+https://angativijaykumar.github.io/WAD-CASE-STUDY-BY-VIJAY/
